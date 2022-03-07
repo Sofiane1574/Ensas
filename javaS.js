@@ -5,12 +5,13 @@ var k=1;
 		var x=document.getElementById("pow");
 		if(k%2==0){
 	   x.style.left="0vw";
+	   x.style.margin="0";
 	   document.getElementById("z").style.filter="blur(0px)";
-
+	   
 	}else {
 		x.style.left="92.5vw";
+		x.style.width="7.5vw";
 		document.getElementById("z").style.filter="blur(8px)";
-
 	}
 	k++;
 	}
@@ -24,9 +25,10 @@ var k=1;
 	}else {
 		b.style.left="92.5vw";
 		document.getElementById("z_2").style.filter="blur(8px)";
+	b.style.width="7.5vw";
 	}
 	c++;
-	}
+	} 
 	/*---------------------------------JAVASCRIPT2----------------------------------*/
 
 function hideheader(x1) {
